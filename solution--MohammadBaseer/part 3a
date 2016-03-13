@@ -1,0 +1,35 @@
+// Vector and Set functions
+// Mohammad Baseer & Moises Leon
+#include <iostream>
+#include <vector>
+
+using std::cin;
+using std::endl;
+using std::cout;
+using std::vector;
+
+
+int main()
+{
+	vector<int> SampleVector;
+	cout << "vector size is " << SampleVector.size() << endl;
+	{
+		SampleVector.push_back(12);
+		SampleVector.push_back(7);
+		SampleVector.push_back(5);
+		SampleVector.push_back(25);
+		SampleVector.push_back(100);
+		// will add an element into the vector
+	}
+
+
+	for (int i = 0; i < 5; i++)
+	{
+		cout << "vector is" << SampleVector[i];
+	}
+
+	
+
+
+	return 0;
+}
